@@ -1,0 +1,60 @@
+# Files in the config/locales directory are used for internationalization
+# and are automatically loaded by Rails. If you want to use locales other
+# than English, add the necessary files in this directory.
+#
+# To use the locales, use `I18n.t`:
+#
+#     I18n.t 'hello'
+#
+# In views, this is aliased to just `t`:
+#
+#     <%= t('hello') %>
+#
+# To use a different locale, set it with `I18n.locale`:
+#
+#     I18n.locale = :es
+#
+# This would use the information in config/locales/es.yml.
+#
+# To learn more, please read the Rails Internationalization guide
+# available at http://guides.rubyonrails.org/i18n.html.
+
+en:
+  hello: "Hey %{name}, RemoTM provides you on-demand ATM services. It connects you to nearby folks who can exchange physical cash for digital cash"
+  greeting_text: "RemoTM provides you on-demand ATM services. It connects you to nearby folks who can exchange physical cash for digital cash"
+  link_upi: "Link UPI"
+  upi_address_saved: "Your UPI address is saved. From now on, you can just send amount of cash you want. Ex: 100"
+  please_send_upi_address: "Please send UPI address"
+  please_enter_valid_amount: "Please enter valid amount"
+  looking_for_nearby_donor: "Connecting to to %{count} folks nearby you who can help you. Please wait..."
+  do_you_have_cash: "Hey, %{name} is looking for cash of amount Rs.%{amount} within %{distance}kms. See if you can help"
+  cancel: "cancel"
+  do_not_give_cash: "cancel"
+  order_cancel: "cancel"
+  give_cash: "Sure"
+  we_will_notify_you_in_future_for_more: "Hey, you can turn of cash requests by simply typing 'stop'"
+  select: "Select"
+  order_accepted: "Hey, %{name} near you has got some cash. We will sending you their location once you complete our UPI payment request. Kindly click 'I received money' when you get it"
+  received_money: "Received cash"
+  "yes": "Yes"
+  "no": "No"
+  directions: "Here is directins to %{name}"
+  get_directions: "Get directions"
+  please_share_your_location: "Please share your location"
+  remove: "Remove"
+  we_have_received_amount_from_you: "We have received %{amount} from you. Thanks!"
+  select_language: "Please select language"
+  english: "English"
+  hindi: "हिन्दी"
+  location_updated: "Your location is updated!"
+  more_settings: "Additional Settings"
+  update_phone_menu: "Update phone number"
+  update_name_menu: "Update name"
+  update_name_success: "Name updated to: %{name}"
+  update_phone: "Enter phone number"
+  update_phone_success: "Phone updated to: %{phone}"
+  added: "added"
+  removed: "removed"
+  remove: "Remove"
+  searching_for: "Searching for: %{query}"
+  call: "Call"
